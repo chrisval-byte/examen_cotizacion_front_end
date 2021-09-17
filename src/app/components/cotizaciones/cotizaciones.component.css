@@ -1,0 +1,87 @@
+.container{
+    display: flex;
+    background-color: #fafafa;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.section{
+  display: flex;
+  height: 90vh;
+  width: 90%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-section{
+  height: 10%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  padding-left: 10px;
+}
+
+.title-section h1{
+  font-size: 38px;
+  margin-bottom: 18px;
+  margin-top: 10px;
+}
+
+.data-section{
+  height: 80%;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 10px;
+  overflow: scroll;
+}
+
+.cotizacion{
+  display: flex;
+  padding: 20px 10px 20px 20px;
+  width: 80%;
+  height: 150px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+}
+
+.info-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  height: 100%;
+}
+
+.info-section h2{
+  width: 90%;
+  margin: 0;
+  padding: 0;
+}
+
+.info-section p{
+  width: 90%;
+  display: flex;
+  margin: 0;
+}
+
+.edit-section{
+  width: 20%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.edit-section button{
+  height: 50px;
+  width: 150px;
+  font-size: 16px;
+  background-color: #d72e2e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

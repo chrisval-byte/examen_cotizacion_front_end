@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {BehaviorSubject} from "rxjs";
+import {Cotizacion} from "./Models/Cotizacion";
 
 @Component({
   selector: 'app-root',

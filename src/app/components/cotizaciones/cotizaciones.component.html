@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="section">
+        <div class="title-section">
+            <h1>Listado de cotizaciones</h1>
+            <p>A continuación podrá encontrar todas las cotizaciones que se han realizado
+              por medio de dialogflow.
+            </p>
+        </div>
+        <div class="data-section">
+          <div class="cotizacion" *ngFor="let cotizacion of cotizaciones">
+            <div class="info-section">
+              <h2>{{cotizacion.nombre}} {{cotizacion.apellido}}</h2>
+              <p>Auto de su interes: {{cotizacion.automovil}}</p>
+              <p>Correo: {{cotizacion.email}}</p>
+              <p>Número de telefono: {{cotizacion.telefono}}</p>
+            </div>
+            <div class="edit-section">
+              <button (click)="borrarCotizacion(cotizacion.id)">Borrar cotización</button>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
